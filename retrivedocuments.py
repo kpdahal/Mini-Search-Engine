@@ -1,8 +1,8 @@
 # author: Kumar Dahal
 # 2/7/2017
 # This program retrives most relevant urls based on user query.
-# In this step we performe calculations to find out similarities between user query and documents.
-# 1) we calculated term frequency and inverse document frequency that is used to calculate the weight of each word.
+# In this step we perform calculations to find out similarities between user query and documents.
+# 1) we calculate term frequency and inverse document frequency that is used to calculate the weight of each word.
 # 2) we use this weight to find the cosine similarity between query and docs.
 # 3) we sort the docs based on  cosine similarity score and present the relevent docs to user.
 
